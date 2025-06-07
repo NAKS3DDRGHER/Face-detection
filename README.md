@@ -27,5 +27,3 @@ A more advanced project utilizing the **TensorFlow Object Detection API** to bui
 ### Usage
 *(Instructions to be added)*
 
-## License
-This project is licensed under the MIT License.
