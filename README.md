@@ -1,29 +1,11 @@
-# Face-detection
+Introduction
 
-This repository contains two projects demonstrating different approaches to face detection.
+This project demonstrates a complete pipeline for face detection using a high-performance Faster R-CNN framework with a ResNet-101-FPN backbone. Built on top of Detectron2 and PyTorch, it highlights key stages from data preparation and model training to inference and result analysis, all within a reproducible Google Colab environment.
 
-## Projects
+Motivation
 
-### 1. Face Localization with TensorFlow
-A project that uses pure **TensorFlow** to locate faces in an image. This part of the repository was used to test various models and contains the core logic for displaying image outputs with **Matplotlib**.
+Accurate face detection is foundational for numerous applications such as surveillance, human–computer interaction, and biometric authentication. While many modern solutions exist, customizing a robust detector on a specialized dataset helps:
 
-- **Technology:** Python, TensorFlow, Matplotlib
-
-### 2. TensorFlow Face Detection
-A more advanced project utilizing the **TensorFlow Object Detection API** to build a robust face detection model. **OpenCV** is used for image processing tasks. This approach offers higher accuracy and flexibility.
-
-- **Technology:** Python, TensorFlow, TensorFlow Object Detection API, OpenCV
-
-## Getting Started
-
-### Prerequisites
-* Python 3.x
-* TensorFlow
-* OpenCV
-
-### Installation
-*(Instructions to be added)*
-
-### Usage
-*(Instructions to be added)*
-
+Explore model tuning for specific conditions (lighting, occlusion, angles)
+Understand trade-offs between speed and precision
+Build a foundation for downstream tasks like face recognition or emotion analysis
